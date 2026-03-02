@@ -16,7 +16,9 @@ function App() {
   }
 
   function decrease() {
+    if (count>0){
     setCount(count - 1);
+    }
   }
 
   // BONUS: shopping cart state
